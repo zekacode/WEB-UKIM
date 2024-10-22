@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #0057b7; /* Blue */
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 150px 72px;
+    margin: 0px;
+    opacity: 0,2;
+    background-color: black;
+    background-image: url("./Images/unesa.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.hero p {
+    margin: opx 0px;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #0057b7; /* Blue */
+    margin-bottom: 30px;
+}
+
+.category-cards, .article-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card, article {
+    background-color: #ffdd00; /* Yellow */
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.card h3, article h3 {
+    color: #0057b7;
+}
+
+footer {
+    background-color: #0057b7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    margin-bottom: 20px;
+}
