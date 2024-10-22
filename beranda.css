@@ -1,0 +1,191 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0C356A;
+    color: #FFC436;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FFC436;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/asset/beranda.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #FFC436;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.learn-more-btn {
+    background-color: #FFC436;
+    color: #0C356A;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #fff;
+    color: #0C356A;
+}
+
+/* Vision Section */
+.vision {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.vision h2 {
+    color: #0C356A;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.vision h3 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #FFC436;
+}
+
+.vision-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vision-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 220px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.vision-item:hover {
+    transform: translateY(-10px);
+}
+
+.vision-item h4 {
+    margin-bottom: 10px;
+    color: #FFC436;
+}
+
+.vision-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0C356A;
+    padding: 30px;
+    text-align: center;
+    color: #FFC436;
+}
+
+footer h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+footer p {
+    font-size: 1em;
+    color: #fff;
+}
