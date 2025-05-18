@@ -1,7 +1,7 @@
 
 # WEB-UKIM ⛪✨
 
-Aplikasi Web Gereja UKIM. Proyek ini bertujuan untuk [jelaskan tujuan utama aplikasi, misal: memfasilitasi pengelolaan data jemaat, jadwal ibadah, atau komunikasi internal gereja].
+Aplikasi Web Organisasi Kemahasiswaan UKIM Unesa. Proyek ini bertujuan untuk meredesign tampilan website Organisasi Kemahasiswaan UKIM Unesa.
 
 <!-- Opsional: Tambahkan tagline super singkat atau fokus utama aplikasi -->
 
