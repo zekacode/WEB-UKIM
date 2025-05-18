@@ -1,14 +1,7 @@
 
-# WEB-UKIM ⛪✨
+# WEB-UKIM ✨
 
 Aplikasi Web Organisasi Kemahasiswaan UKIM Unesa. Proyek ini bertujuan untuk meredesign tampilan website Organisasi Kemahasiswaan UKIM Unesa.
-
-<!-- Opsional: Tambahkan tagline super singkat atau fokus utama aplikasi -->
-
-![CodeIgniter Logo](https://codeigniter.com/userguide3/images/ci-logo.png) 
-<!-- Logo CodeIgniter ini sudah ada di repo kamu, bisa tetap dipakai -->
-
----
 
 ## 🛡️ Badge (Opsional tapi Disarankan)
 
